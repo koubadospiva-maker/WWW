@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+body {
+    /* ostatní styly ponech */
+    flex-direction: column;
+    gap: 22px;
+
+}
+p {
+    margin: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #252a34;
+    text-align: center;
+}
